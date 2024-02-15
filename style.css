@@ -262,7 +262,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 1% 0;
+    padding: 70px 1% 0;
 }
 
 .home-content {
@@ -330,9 +330,9 @@ header {
 }
 
 .home-img {
-    width: 410px;
-    height: 410px;
-    margin-right: -900px;
+    width: 600px;
+    height: 600px;
+    margin-left: 800px;
 }
 
 .home-img .glowing-circle {
@@ -348,16 +348,16 @@ header {
 .home-img .glowing-circle::after {
     content: '';
     position: absolute;
-    width: 380px;
-    height: 380px;
+    width: 600px;
+    height: 600px;
     background: #be405c;
     border-radius: 50%;
 }
 
 .glowing-circle .image {
     position: relative;
-    width: 380px;
-    height: 380px;
+    width: 600px;
+    height: 600px;
     border-radius: 50%;
     z-index: 1;
     overflow: hidden;
@@ -367,6 +367,6 @@ header {
     position: absolute;
     left: 49%;
     transform: translateX(-50%);
-    max-width: 380px;
+    max-width: 615px;
     object-fit: cover;
 }
