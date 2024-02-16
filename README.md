@@ -1,1 +1,1 @@
-duy an cut
+![](https://cdn.discordapp.com/attachments/1094638149851943025/1208146174075211866/Screenshot_from_2024-02-17_03-21-07.png?ex=65e238ce&is=65cfc3ce&hm=8785ac584a299eb17c6d8710e94ef9333f8d04a813b82b76e07c214e7f1b8279&)
