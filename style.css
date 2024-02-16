@@ -7,7 +7,7 @@
 }
 
 body {
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -93,7 +93,7 @@ header {
     color: #fff;
     font-size: 1.5rem;
     cursor: pointer;
-    
+
 }
 
 .wrapper {
@@ -273,15 +273,16 @@ header {
 
 .home {
     height: 100vh;
-    display: flex;
+    display: inline-flex;
     justify-content: space-between;
     align-items: center;
-    padding: 70px 1% 0;
+    padding: 0 1% 0;
 }
 
 .home-content {
-    max-width: 600px;
+    max-width: 500px;
     color: #fff;
+    filter: drop-shadow(0 0 0.5rem #000);
 }
 
 .home-content h1 {
@@ -311,21 +312,30 @@ header {
     animation-delay: .5s;
 }
 
+.home-content p2 {
+    font-size: 16px;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .5s;
+}
+
 .social-media a {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     background: transparent;
     border: 2px solid #fff;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(0, 0, 0, .1);
-    font-size: 48px;
+    font-size: 40px;
     text-decoration: none;
     color: #fff;
     margin: 5px 15px 25px 0;
     transition: .5s;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
 }
 
 .social-media a:hover {
@@ -353,17 +363,24 @@ header {
 }
 
 .home-img {
-    width: 600px;
-    height: 600px;
-    margin-left: 800px;
+    position: absolute;
+    top: 145px;
+    margin-inline: 180px;
+    width: 450px;
+    height: 450px;
+    display: inline-block;
+    filter: drop-shadow(0 0 0.5rem #000);
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: .5s;
 }
 
 .home-img .glowing-circle {
     position: relative;
     width: 100%;
     height: 100%;
-    border-radius: 50%;
-    display: flex;
+    border-radius: 15%;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
 }
@@ -371,16 +388,16 @@ header {
 .home-img .glowing-circle::after {
     content: '';
     position: absolute;
-    width: 600px;
-    height: 600px;
-    background: #be405c;
+    width: 465px;
+    height: 465px;
+    background: #ffffff;
     border-radius: 50%;
 }
 
 .glowing-circle .image {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 445px;
+    height: 450px;
     border-radius: 50%;
     z-index: 1;
     overflow: hidden;
@@ -390,7 +407,7 @@ header {
     position: absolute;
     left: 49%;
     transform: translateX(-50%);
-    max-width: 615px;
+    max-width: 500px;
     object-fit: cover;
 }
 
