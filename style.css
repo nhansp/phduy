@@ -364,8 +364,8 @@ header {
 
 .home-img {
     position: absolute;
-    top: 145px;
-    margin-inline: 180px;
+    top: 300px;
+    margin-inline: 350px;
     width: 450px;
     height: 450px;
     display: inline-block;
